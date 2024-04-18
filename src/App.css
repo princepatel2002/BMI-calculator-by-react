@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(108, 171, 171);
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    /* background-color: rgb(108, 171, 171); */
+}
+
+.form {
+
+    width: fit-content;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    width: 30%;
+    background-color: rgb(105, 192, 163);
+
+
+}
+
+input {
+    text-align: right;
+    padding-right: 3px;
+    background: transparent;
+}
+
+button {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
